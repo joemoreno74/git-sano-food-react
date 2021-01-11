@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import FoodMenu from './FoodMenu';
+import ContactUs from './ContactUs'
+import Locations from './Locations'
 
 class Main extends Component {
 
@@ -7,6 +10,9 @@ class Main extends Component {
         return (
             <div>
                 <Header />
+                <FoodMenu />
+                <ContactUs />
+                <Locations />
 
             </div>
         );

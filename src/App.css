@@ -2,9 +2,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, .card-body>.card-title {
+h1, h2, h3, h4, .card-body>.card-title {
 
   font-family: "Lobster", cursive;
+
 }
 
 .card-title {
@@ -49,7 +50,12 @@ i, h2 {
 }
 
 .navItem {
-  color: black;
+  color: green;
 }
 
+
+.carousel-caption {
+  background: rgba(97, 95, 95, 0.452);
+  color: white;
+ }
 

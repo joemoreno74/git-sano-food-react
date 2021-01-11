@@ -3,8 +3,7 @@ import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron }
 import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
-
-    constructor(props) {
+   constructor(props) {
         super(props);
 
         this.toggleNav = this.toggleNav.bind(this);
