@@ -4,6 +4,7 @@ import FoodMenu from './FoodMenu';
 import ContactUs from './ContactUs';
 import Locations from './Locations';
 import Footer from './Footer';
+import Reservation from './Reservation';
 
 class Main extends Component {
 
@@ -14,6 +15,7 @@ class Main extends Component {
                 <FoodMenu />
                 <ContactUs />
                 <Locations />
+                <Reservation />
                 <Footer />
             </div>
         );
