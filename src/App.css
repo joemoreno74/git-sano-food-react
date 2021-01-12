@@ -12,9 +12,15 @@ h1, h2, h3, h4, .card-body>.card-title {
   font-weight: 500;
   font-size: 1.25rem;
 }
+
 i, h2 {
   color: #0f0f0f;
 
+}
+
+h6 {
+  font-weight: bold;
+  white-space: pre-line;
 }
 
 .card-img-overlay .card-title {
