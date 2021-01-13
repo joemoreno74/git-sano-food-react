@@ -5,6 +5,7 @@ import ContactUs from './ContactUs';
 import Locations from './Locations';
 import Footer from './Footer';
 import Reservation from './Reservation';
+import FoodCarousel from './FoodCarousel';
 
 class Main extends Component {
 
@@ -12,6 +13,7 @@ class Main extends Component {
         return (
             <div>
                 <Header />
+                <FoodCarousel />
                 <FoodMenu />
                 <ContactUs />
                 <Locations />
