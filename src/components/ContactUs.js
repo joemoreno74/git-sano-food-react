@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React, { Component }  from 'react';
 import {  Button, Label, Container, Row, Col } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -170,6 +171,8 @@ render (){
                                 <Button outline className="fa-lg"><FontAwesomeIcon icon={faInstagram} size="3x" color="black" /></Button> 
                                 {' '}
                                 <Button outline className="fa-lg"><FontAwesomeIcon icon={faFacebook} size="3x" color="black" /></Button> 
+                                <br />
+                                <br />
                              </div>  
                         </Col>  
                     </Row>

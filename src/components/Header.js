@@ -45,12 +45,6 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/aboutus"
-                                    style={{color: 'black', textDecoration: 'none'}} activeStyle={{color: 'green', textDecoration: 'none'}}>
-                                        <i className="fa fa-list fa-lg" /> About
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
                                     <NavLink className="nav-link" to="/menu"
                                      style={{color: 'black', textDecoration: 'none'}} activeStyle={{color: 'green', textDecoration: 'none'}}>
                                         <i className="fa fa-info fa-lg" /> Menu
@@ -60,12 +54,6 @@ class Header extends Component {
                                     <NavLink className="nav-link" to="/reservation"
                                      style={{color: 'black', textDecoration: 'none'}} activeStyle={{color: 'green', textDecoration: 'none'}}>
                                         <i className="fa fa-info fa-lg" /> Reservation
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/blog"
-                                     style={{color: 'black', textDecoration: 'none'}} activeStyle={{color: 'green', textDecoration: 'none'}}>
-                                        <i className="fa fa-info fa-lg" /> Blog
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>

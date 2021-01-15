@@ -6,6 +6,7 @@ import SANOMENU from '../shared/SanoMenu';
 import classnames from 'classnames';
 
 
+
 function CreateEntry (props) {
   return (
     <div style={{ backgroundImage: "url(https://projects.saicharan.com/navpills/veg-table.jpg)",}}> 
